@@ -1,0 +1,6 @@
+print ("\n Bienvenido a su calculadora de IMC :) ")
+print("Cual es su estatura en m?")
+estatura = input()
+peso = input("cual es su peso en kg?")
+imc = round(float(peso)/(float(estatura)**2), 2)
+print(" Su imc es de "+ str(imc))
