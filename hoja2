@@ -1,0 +1,15 @@
+print("Bienvenido al ejemplo1!")
+print("Ingrese la cant de lineas que desea")
+cant=input()
+for i in range(int(cant)+1):
+    print("*"*i)
+
+
+print("\n Bienvenido al ejemplo2!")
+num=input("Ingrese el numero a verificar")
+res=" Si es primo"
+for k in range(2, int(num) ):
+    if int(num) % k==0:
+        res=" No es primo"
+        break
+print(num+res)
